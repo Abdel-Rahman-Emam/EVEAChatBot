@@ -1,0 +1,50 @@
+
+.userMessage{
+    align-self: flex-end;
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    color: black;
+    font-size: 17px;
+    float:right;
+    padding: 8px;
+    margin-top:7px;
+    margin-bottom:7px;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.botMessage{
+    align-self: flex-start;
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    float:left;
+    font-size: 17px;
+    padding: 8px;
+    margin-top:7px;
+    margin-bottom:7px;
+    margin-left: 5px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pair{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.dogPic{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 8px;
+    width:95%;
+
+}

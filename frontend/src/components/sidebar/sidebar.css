@@ -1,0 +1,56 @@
+.sidebar {
+    flex: 3;
+    height: calc(100v - 50px);
+    padding: 0px;
+}
+
+.sideBarWrapper{
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+.sideBarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sideBarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sideBarIcon{
+    margin-right: 15px;
+}
+.sideBarButton{
+    width: 150px;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+}
+.expand{
+    background-color: transparent;
+    border-radius: 50%;
+}
+.sideBarHr{
+    margin: 20px 0;
+    width:50%;
+}
+.sideBarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.shareOptionText{
+    font-size: 14px;
+    font-weight: 500;
+}
